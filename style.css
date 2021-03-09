@@ -1,5 +1,14 @@
-* {
-  box-sizing: border-box;
+
+/* ask Tor how to make fixed footer w3 schools not working */ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  
 }
 
 
@@ -15,14 +24,33 @@
 
 #column1 {
   background-color: #FF7F50;
+  height: auto;
+  width: 25%;
+  float: left;
+  border-radius: 5px;
+  display: inline-block;
+  overflow: hidden;
+  
 }
 
 #column2 {
   background-color: #8FBC8F;
+  height: auto;
+  width: 25%;
+  float: left;
+  border-radius: 5px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 #column3 {
   background-color: #B0C4DE;
+  height: auto;
+  width: 33%;
+  float: left;
+  border-radius: 5px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .img-fluid {
@@ -32,7 +60,20 @@
 }
 
 
-/* js */
+/* js for list dropdown */
+
+
+div#column1.iClicked {
+  height: 5vh;
+}
+
+div#column2.eClicked {
+  height: 5vh;
+}
+
+div#column3.dClicked {
+  height: 5vh;
+}
 
 
 

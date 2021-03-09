@@ -14,7 +14,7 @@
 
  h1.setFont('.50');
 
- window.onSize = function() {
+ window.onload = function() {
    h1.setFont('.50')
  };
 
@@ -27,10 +27,26 @@
 
 
  /* dissapearing lists */
-window.onload = function() {
-document.getElementById("btn").addEventListener("click", function(){
-  document.getElementById('list1').classList.toggle('disappear');
-})
+a = document.querySelector("div#column1");
+a.onclick = function () {
+  a.classList.toggle("iClicked");
 };
+
+/* this way works, overcomplexed it the first time */
+
+b = document.querySelector("div#column2");
+b.onclick = function () {
+  b.classList.toggle("eClicked");
+};
+
+c = document.querySelector("div#column3");
+c.onclick = function () {
+  c.classList.toggle("dClicked");
+};
+
+/* Last prompt then done */
+
+
+
 
 
