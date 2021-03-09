@@ -3,6 +3,15 @@
 }
 
 
+#h1 {
+  color: red;
+}
+
+.clicked-class {
+  text-color: Yellow;
+}
+
+
 /* these are ingredients, directions, and equipment */
 
 #column1 {

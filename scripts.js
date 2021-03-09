@@ -3,6 +3,7 @@
 var h1 = document.getElementById('h1');
 
 
+
  h1.setFont = function(font) {
    var size = this.offsetWidth,
      font_size = size * font;
@@ -13,9 +14,24 @@ var h1 = document.getElementById('h1');
  h1.setFont('.50');
 
  window.onresize = function() {
-   h1.setFont('.50');
- }
+   h1.setFont('.50')};
+   
+   /* change font color using click function on h1 to green */
+
+
+  function myFunction() {
+    document.getElementById("h1").style.color = "green";
+}
  
 
- 
+
+
+
+  
+
+  
+
+  
+  
+
  
