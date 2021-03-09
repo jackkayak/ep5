@@ -7,10 +7,9 @@
   color: red;
 }
 
-.clicked-class {
-  text-color: Yellow;
+.list {
+  background-color: #D0D6B5;
 }
-
 
 /* these are ingredients, directions, and equipment */
 
@@ -32,9 +31,22 @@
   display: block;
 }
 
-/* changes are being made */ 
 
-/* not sure whether this works for mobile */
+/* js */
+
+#column1.oneClicked {
+  height: 200vh;
+}
+
+
+
+
+
+
+
+ 
+
+/* for mobile */
 
 @media screen and (max-width: 575px) {
   h4 {

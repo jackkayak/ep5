@@ -13,7 +13,7 @@ var h1 = document.getElementById('h1');
 
  h1.setFont('.50');
 
- window.onresize = function() {
+ window.onload = function() {
    h1.setFont('.50')};
    
    /* change font color using click function on h1 to green */
@@ -23,6 +23,17 @@ var h1 = document.getElementById('h1');
     document.getElementById("h1").style.color = "green";
 }
  
+
+/* essentially a drop down menu for each list */ 
+
+x = document.getElementById("love");
+x.addEventListener("click", function(){
+  x.classList.toggle('disappear')
+  
+});
+  
+
+
 
 
 
