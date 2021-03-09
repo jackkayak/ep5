@@ -1,6 +1,7 @@
- /* Changing Raspberry Header to a bigger font.. Got help from demos and GeeksforGeeks.org */ 
+ /* Changing Raspberry Header to a bigger font.. Got help from demos and GeeksforGeeks.org */
 
-var h1 = document.getElementById('h1');
+ var h1 = document.getElementById('h1');
+
 
 
 
@@ -13,36 +14,23 @@ var h1 = document.getElementById('h1');
 
  h1.setFont('.50');
 
- window.onload = function() {
-   h1.setFont('.50')};
-   
-   /* change font color using click function on h1 to green */
+ window.onSize = function() {
+   h1.setFont('.50')
+ };
+
+ /* change font color using click function on h1 to green */
 
 
-  function myFunction() {
-    document.getElementById("h1").style.color = "green";
-}
- 
-
-/* essentially a drop down menu for each list */ 
-
-x = document.getElementById("love");
-x.addEventListener("click", function(){
-  x.classList.toggle('disappear')
-  
-});
-  
+ function myFunction() {
+   document.getElementById("h1").style.color = "green";
+ }
 
 
+ /* dissapearing lists */
+window.onload = function() {
+document.getElementById("btn").addEventListener("click", function(){
+  document.getElementById('list1').classList.toggle('disappear');
+})
+};
 
 
-
-
-  
-
-  
-
-  
-  
-
- 
