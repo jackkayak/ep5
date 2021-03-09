@@ -1,5 +1,11 @@
 
-/* ask Tor how to make fixed footer w3 schools not working */ 
+/* ask Tor how to make fixed footer and background black w3 schools not working */ 
+body {
+  background-color: black:
+    
+}
+
+
 .footer {
   position: fixed;
   left: 0;

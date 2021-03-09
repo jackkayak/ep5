@@ -47,6 +47,8 @@ c.onclick = function () {
 /* Last prompt then done */
 
 
+ h = document.getElementById("headache");
+h.innerHTML = "I am not going to procastinate anymore.";
 
 
 
